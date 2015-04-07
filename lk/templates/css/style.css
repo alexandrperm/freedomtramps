@@ -1,0 +1,39 @@
+.window_tags
+{
+	border:1px solid #000;
+	width:250px;
+	height:100px;
+	background-color:#fff;
+	position:absolute;
+	left:50%;
+	top:35%;
+	margin-left:-125px;
+}
+.input
+{
+	text-align:center;
+	position:absolute;
+	margin-top:10px;
+}
+#window_supmit
+{
+	width:55px;
+	height:25px;
+	border:1px solid #000;
+	text-align:center;
+	position:absolute;
+	margin-left:95px;
+	margin-top:15px;
+	cursor:pointer;
+}
+#p_sub
+{
+	margin:0px;
+	margin-top:3px;
+}
+
+/*стили для замены bb кодов*/
+.bb_bold{
+	font-weight:bold;
+}
+

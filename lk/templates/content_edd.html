@@ -1,0 +1,31 @@
+<table width="600px" cellpadding="0" cellspacing="0" border="0" align="center">
+    <tr>
+        <td width="100px" height="100px" valign="top" align="center">		
+        <form action="?page=edd_content" method="post" name="form">
+            <input name="edd_id_post" type="hidden" value="[_id]">
+            <br><br>
+            <input style="width:600px;" name="edd_name_post" type="text" value="[_title]">
+            <br><br>
+            <textarea style="width:600px;height:600px;" id="txt_post" name="edd_txt_post" rows="10">[_text]</textarea>
+            <br><br>
+			<input style="width:600px;" name="edd_metad_post" type="text" value="[_metad]">
+            <br><br>
+            <input style="width:600px;" name="edd_metak_post" type="text" value="[_metak]">
+            <br><br>
+			<p align="left">
+            <select name="edd_category_post">
+            <option value="0">Нет категории</option>
+            [_option]
+            </select>
+            </p>
+			<p align="left">
+            <select name="status_post">
+            [_status_post_option]
+            </select>
+            </p>
+			<input type="submit" value="Сохранить изменения">
+        </form>		
+        </td>
+    </tr>
+</table>
+

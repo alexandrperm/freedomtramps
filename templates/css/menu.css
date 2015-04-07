@@ -1,0 +1,56 @@
+    @font-face{ 
+        font-family: FRAMDCN;
+        src: url('/css/FRAMDCN.eot');
+    }    
+
+@font-face{ 
+        font-family: "FRAMDCN";
+        src: url('/css/FRAMDCN.eot');
+        src: local("Franklin Gothic Medium Cond"), url('http://fontsforweb.com/public/fonts/1219/FRAMDCN.ttf') format("truetype");
+    }
+.fontsforweb_fontid_1219 {font-family: "FRAMDCN";}
+
+#navigation {z-index: 99;background: white;padding:0;position: relative;}
+
+#upper-main-menu {margin-bottom:10px;}
+#main-menu {width:100%;margin: 0;padding: 0;height:50px;background: transparent url('/css/dot-hor.gif')repeat-x left top;line-height:40px;}
+#main-menu a {text-decoration:none;}
+#main-menu .first-level-menu {margin: 0;padding: 5px 18px 0 18px;float:left;display:inline;list-style:none;position: relative;z-index: 99999;font-size: 18px;line-height: 45px;}
+#main-menu .first-level-menu .parent {color:#999; height: auto !important;}
+
+#main-menu .first-level-menu .parent {font-family: FRAMDCN, arial, sans-serif;}
+
+#main-menu .first-level-menu .parent:hover {text-decoration:none;color:#333;}
+#main-menu .first-level-menu.sel {border-top: 5px solid #666;padding-top: 0;}
+#main-menu .first-level-menu.sel a {color: #333;}
+
+#main-menu .second-level-menu {margin:0;padding:0;list-style: none;display: none;position: absolute;top:38px;left:0;background-color:white;font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif;}
+#main-menu .second-level-menu.travel {width: 800px;left:-50px;border-right: 1px solid #999;border-bottom: 1px solid #999;border-left: 1px solid #999;}
+#main-menu .second-level-menu.foto {width: 300px;left:-50px;border-right: 1px solid #999;border-bottom: 1px solid #999;border-left: 1px solid #999;}
+#main-menu .second-level-menu.snar {width: 540px;left:-70px;border-right: 1px solid #999;border-bottom: 1px solid #999;border-left: 1px solid #999;}
+#main-menu .second-level-menu.travel .menu-geo-all {float:left;}
+
+#main-menu .second-level-menu.travel .name, #main-menu .second-level-menu.foto .name, #main-menu .second-level-menu.snar .name, #main-menu .second-level-menu.foto .name a  {text-transform: uppercase;height:28px;color: #3CF;padding:0 0 0 10px;margin:0;display:block;vertical-align: middle;background:none;}
+.menu-geo, .menu-foto {min-width:80px;padding:10px 20px;float:left;}
+.menu-snar {padding:10px 5px 10px 20px;float:left;}
+.menu-article {padding:10px 20px;float:left;}
+.menu-all {clear:both;margin-left:550px;}
+.menu-geo-all {margin:0 10px;/*background: url("/css/dot-hor.gif") repeat-x scroll left bottom transparent;*/}
+.menu-blog  {min-width:80px;padding:10px 20px 0 20px;}
+
+#main-menu .second-level-menu.travel a, #main-menu .second-level-menu.foto a,  #main-menu .second-level-menu.snar a {display:block;float:none;color:#999;}
+#main-menu .second-level-menu.travel a:hover, #main-menu .second-level-menu.foto a:hover,  #main-menu .second-level-menu.snar a:hover {display:block;float:none;}
+#main-menu .second-level-menu li {background:transparent url('/css/icon-back.png') no-repeat 0 -3645px;height:30px;font-size:12px;line-height:28px;padding:0 18px}
+
+
+/* Main Menu Hover - parent element css on hover*/
+#main-menu a:hover, #main-menu li:hover a, #main-menu li.iehover a {}
+/* Second Menu css on hover*/
+ul#main-menu li:hover li a, #main-menu li.iehover li a {}
+
+/* Second Menu item css on hover*/
+#main-menu li:hover li a:hover, #main-menu li:hover li:hover a, #main-menu li.iehover li a:hover, #main-menu li.iehover li.iehover a {color:#333;text-decoration:none;}
+#main-menu li:hover ul, #main-menu ul li:hover ul div, #main-menu li.iehover ul div, #main-menu ul li.iehover ul div {display: block;} 
+
+/*Language*/
+#language a {text-decoration:none;color: #999999;padding-right:20px;}

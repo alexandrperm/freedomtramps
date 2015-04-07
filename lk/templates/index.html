@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+<title><?=$header_title?></title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="<?=$header_meta_descr?>">
+<meta name="keywords" content="<?=$header_meta_keyw?>">
+	<link rel="stylesheet" href="../templates/css/main_global.css" type="text/css" media="all" /> 
+	<link rel="stylesheet" href="../templates/css/menu.css" type="text/css" media="all" />  
+	<link rel="stylesheet" href="templates/css/style.css" type="text/css" media="all" />    
+	<script type="text/javascript" src="templates/js/scripts.js"></script>
+	<script type="text/javascript" src="tinymce/js/tinymce/tinymce.min.js"></script>
+	<script type="text/javascript">
+    tinyMCE.init({
+	    mode:"textareas",
+        theme:"modern",
+        language:"ru",
+		toolbar:"image, preview, smileys,link",
+		plugins : "image, preview, smileys,link"
+    });
+</script>
+</head>
+
+
+<!--ЛОГО
+<div class="logo">
+	<div class="logoP">
+		<p style="padding:3px;"><a style="font-weight:100;" href="/index.php">Добро пожаловать в личный кабинет</a> <a href="exit.php" style="font-size:10px;font-weight:100;">(Выход)</a></p>
+	</div>
+</div>
+ЛОГО-->
+
+<body>
+
+<div class = "page">
+	<div class="header">
+		Заголовок сайта
+	</div>
+	<div class="section main">
+
+		<div class="lkmenu">
+			<!--ТЕКСТ меню-->
+			<?=$lkmenu_txt?>
+			<!--ТЕКСТ меню-->
+		</div>
+		
+		<div class="lkmain">
+			<!--ТЕКСТ-->
+			<?=$txt?>
+			<!--ТЕКСТ-->
+		</div>
+	</div>
+	<div class="footer">
+		Подвал сайта
+	</div>
+</div>
+
+</body>
+</html>	

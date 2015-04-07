@@ -1,0 +1,23 @@
+
+
+<table width="600px" cellpadding="0" cellspacing="0" border="0" align="center">
+    <tr>
+        <td width="250px" height="30px" valign="top" style="font-weight:bold;">Заголовок</td>
+        <td valign="top" style="font-weight:bold;">Автор</td>
+        <td valign="top" style="font-weight:bold;">Редактировать</td>
+        <td valign="top" style="font-weight:bold;">Комментарии</td>
+		<td valign="top" style="font-weight:bold;">Удалить</td>
+    </tr>
+    
+    [_while]
+    <tr>
+        <td width="250px" valign="top"><a style="font-weight:100;" href="../?post=[_id]">[_title]</a></td>
+	    <td valign="top">[_author]</td>
+		<td valign="top"><a style="font-weight:100;" href="?page=edd_content&id=[_id]"><img src="img/b_edit.png" border="0px"></a></td>
+        <td valign="top" align="left"><a style="font-weight:100;" href="?page=edd_comm&id=[_id]"><img src="img/b_comment.png" border="0px"></a></td>
+		<td valign="top"><a style="font-weight:100;" href="?page=edd_content&del_post=[_id]"><img src="img/b_drop.png" border="0px"></a></td>
+    </tr>
+    [_while]
+</table>
+
+

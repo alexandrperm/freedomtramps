@@ -1,0 +1,25 @@
+<table width="600px" cellpadding="0" cellspacing="0" border="0" align="center">
+    <tr>
+        <td valign="top" align="center">		
+        <form action="index.php?page=add_content" method="post" name="form">
+            <br>
+            <input style="width:600px;" name="name_post" type="text" placeholder="Название статьи" value="">
+            <br><br>
+            <textarea style="width:600px;height:600px;" id="txt_post" name="txt_post" rows="10"></textarea>
+            <br><br>  
+			<input style="width:600px;" name="metad_post" type="text" placeholder="Описание статьи" value="">
+            <br><br>
+            <input style="width:600px;" name="metak_post" type="text" placeholder="Ключевые слова" value="">
+			<br><br>
+            <p align="left">
+            <select name="menu_post">
+            <option value="0">Нет категории</option>
+            [_option]
+            </select>
+            </p>
+            <br><br><input name="nopost_post" type="submit" value="Добавить пост в черновики"><input name="post_post" type="submit" value="Опубликовать пост">
+        </form>		
+        </td>
+    </tr>
+</table>
+

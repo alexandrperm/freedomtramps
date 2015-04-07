@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^post/([-a-z0-9]+.html)$ index.php?post=$1 [L]
+RewriteRule ^category/([-a-z0-9]+.html)$ index.php?category=$1 [L]
+RewriteRule ^contacts.html$ index.php?contact=1 [L]
